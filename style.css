@@ -1,0 +1,262 @@
+body {
+  margin: 0px;
+  padding: 0px;
+  font-size: 16px;
+  font-family: "Playfair Display", serif;
+  background-color: #132440;
+
+}
+
+/*navbar*/
+
+nav {
+  background-color: #132440;
+  color: white;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  box-shadow: 4px 2px 8px 1px rgb(116, 116, 116);
+}
+
+.navbar {
+  width: 1024px;
+  margin: auto;
+  padding: 20px 0px 20px 0px;
+  font-size: 20px;
+
+
+}
+
+nav>.navbar {
+  display: flex;
+  justify-content: space-between;
+}
+
+.menu {
+  width: 50%;
+
+}
+
+.menu>ul {
+  display: flex;
+  list-style: none;
+  margin: 0px;
+  padding: 0px;
+  justify-content: space-between;
+}
+
+.menu>ul>li>a {
+  text-decoration: none;
+  color: white;
+  border-radius: 4px;
+  transition: background-color 0.2s ease;
+
+}
+
+.menu>ul>li>a:hover,
+.menu>ul>li>a:focus {
+  background-color: #d1cdcd;
+  color: #000000;
+}
+
+
+
+/*hero*/
+header {
+  background: url('../ProjectWeb/bg-header.jpeg');
+  height: 100vh;
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+  font-family: "Kanit", sans-serif;
+  letter-spacing: 5px;
+  text-shadow: 0 0 4px black;
+}
+
+.header-opacity {
+  background-color: #132440;
+  width: 100%;
+  height: 100%;
+  opacity: 0.8;
+  position: absolute;
+  top: 0;
+  left: 0;
+
+}
+
+.header-hero {
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: flex;
+  width: 100%;
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+
+}
+
+.header-hero>h4 {
+  color: rgb(208, 141, 16);
+  font-size: 30px;
+  margin: 0px;
+  padding: 0px;
+}
+
+.header-hero>p {
+  color: white;
+  font-size: 25px;
+  font-weight: 300;
+  margin: 0px;
+  padding: 20px;
+}
+
+a {
+  text-decoration: none;
+  color: #132440;
+  text-shadow: none;
+}
+
+.button {
+  background-color: rgb(208, 141, 16);
+  padding: 5px 10px 5px 10px;
+  border-radius: 10px;
+  font-family: "Kanit", sans-serif;
+  transition: background-color 0.2s ease;
+}
+
+.button-xl {
+  font-size: 1.4rem;
+  padding: 20px;
+
+
+}
+
+/*About me*/
+
+.profile-image {
+  width: 100%;
+  max-width: 400px;
+  height: auto;
+  border-radius: 10px;
+  box-shadow: 5px 5px 20px 5px rgb(120, 119, 119);
+  transition: transform 0.3s ease;
+  margin-top: 120px;
+}
+
+.profile-image:hover {
+  transform: scale(1.05);
+}
+
+.about-stats {
+  display: flex;
+  gap: 3rem;
+  margin-top: 2rem;
+  justify-content: center;
+}
+
+.stat {
+  text-align: center;
+}
+
+.stat-number {
+  display: block;
+  font-size: 2rem;
+  font-weight: 700;
+  color: #007bff;
+}
+
+.stat-label {
+  font-size: 0.9rem;
+  color: #ffffff;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+/* Skills Section */
+.skills-section {
+  background: url('../ProjectWeb/bg-header.jpeg');
+  height: 100vh;
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+  font-family: "Kanit", sans-serif;
+  letter-spacing: 5px;
+  text-shadow: 0 0 4px black;
+}
+
+.section-opacity {
+  background-color: #132440;
+  width: 100%;
+  height: 100%;
+  opacity: 0.8;
+  position: absolute;
+  top: 0;
+  left: 0;
+
+}
+
+.section-title {
+  color: white;
+  text-align: center;
+}
+
+.skills-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 2rem;
+  margin-top: 3rem;
+}
+
+.skill-card {
+  background-color: #234f97;
+  padding: 2rem;
+  border-radius: 10px;
+  text-align: center;
+  box-shadow: 0 5px 15px white;
+  transition: all 0.3s ease;
+}
+
+.skill-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 15px 30px rgb(0, 166, 255);
+}
+
+.skill-icon {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+}
+
+.skill-title {
+  margin-bottom: 1rem;
+  color: #ffffff;
+}
+
+.skill-description {
+  color: white;
+  font-size: 1rem;
+}
+
+/* Contact Section */
+.submit-button {
+  background-color: #007bff;
+  color: #ffffff;
+  border: none;
+  padding: 1rem 2rem;
+  border-radius: 5px;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  width: 100%;
+}
+
+.submit-button:hover {
+  background-color: #0056b3;
+  transform: translateY(-2px);
+  box-shadow: 0 5px 15px rgba(0, 123, 255, 0.3);
+}
