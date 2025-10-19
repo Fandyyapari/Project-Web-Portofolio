@@ -5,5 +5,15 @@ Website dibangun menggunakan HTML5, CSS3, JavaScript, dan Bootstrap 5 dengan des
 
 # Screenshoot Tampilan Website
 [Tambilan Home]
-<img src="
-(./images/home-page.png)
+<img src="https://github.com/Fandyyapari/Project-Web-Portofolio/blob/main/home.png" />
+
+[Tampilan About Me]
+<img src=""/>
+
+[Tampilan Skills]
+<img src="" />
+
+[Tampilan Contact]
+<img src=""/>
+
+
