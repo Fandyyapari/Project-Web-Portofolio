@@ -4,3 +4,5 @@ Home dengan animasi typing, About Me berisi profil dan statistik, Skills yang me
 Website dibangun menggunakan HTML5, CSS3, JavaScript, dan Bootstrap 5 dengan desain responsif dan modern untuk memperkenalkan kemampuan pengembangan web secara efektif.
 
 #Screenshoot Tampilan Website
+[Tambilan Home]
+(./images/home-page.png)
