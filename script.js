@@ -1,10 +1,10 @@
-// script.js - File ini di-load di semua halaman
+// File ini di-load di semua halaman
 document.addEventListener('DOMContentLoaded', function () {
     halamanutama();
     initializeContactForm();
+    
 });
-
-// Highlight menu sesuai halaman aktif
+// Highlight menu pada navbar sesuai halaman aktif
 function halamanutama() {
     const currentPage = window.location.pathname.split('/').pop();
     const menuLinks = document.querySelectorAll('.menu a');
@@ -12,7 +12,7 @@ function halamanutama() {
     menuLinks.forEach(link => {
         const linkPage = link.getAttribute('href');
         if (linkPage === currentPage) {
-            link.style.color = '#d08d10'; // Warna kuning/orange
+            link.style.color = '#d08d10';
             link.style.fontWeight = 'bold';
         }
     });
@@ -35,9 +35,9 @@ function initTypingEffect() {
         if (index > currentText.length) {
             index = 0;
             count++;
-            setTimeout(type, 2000);
+            setTimeout(type, 2000); //jeda 2 detik
         } else {
-            setTimeout(type, 100);
+            setTimeout(type, 100); //kecepatan ketikan
         }
     }
 
